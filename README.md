@@ -23,6 +23,12 @@ Welcome to **PCAP Analyzer PRO**, a powerful and open-source network traffic ana
 
 ### Local Installation
 1. Clone the repository:
-   ```bash
+   
    git clone https://github.com/kullaniciadi/pcap-analyzer-pro.git
    cd pcap-analyzer-pro
+
+2. Install dependencies:
+   pip install -r requirements.txt
+
+3. Run the application:
+   python app.py
