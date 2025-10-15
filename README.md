@@ -85,8 +85,7 @@ Protocol SummaryTCP AnalysisDNS Queries<img src="screenshots/protocol_summary.pn
 
 Unanswered RequestsHTTP HeadersDownload Report<img src="screenshots/unanswered_requests.png" alt="Unanswered Requests"><img src="screenshots/http_headers.png" alt="HTTP Headers"><img src="screenshots/download_report.png" alt="Download Report">
 Note: Replace screenshots/*.png with the actual file paths of your uploaded images.
-Project Structure
-textpcap-analyzer-pro/
+pcap-analyzer-pro/
 ├── app.py              # Main Flask application
 ├── Dockerfile          # Docker configuration
 ├── requirements.txt    # Python dependencies
