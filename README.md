@@ -89,28 +89,41 @@ Protocol SummaryTCP AnalysisDNS Queries<img src="screenshots/protocol_summary.pn
 
 
 Unanswered RequestsHTTP HeadersDownload Report<img src="screenshots/unanswered_requests.png" alt="Unanswered Requests"><img src="screenshots/http_headers.png" alt="HTTP Headers"><img src="screenshots/download_report.png" alt="Download Report">
+
+
 Note: Replace screenshots/*.png with the actual file paths of your uploaded images.
+
 pcap-analyzer-pro/
+
 ├── app.py              # Main Flask application
 ├── Dockerfile          # Docker configuration
 ├── requirements.txt    # Python dependencies
 ├── README.md           # This file
 └── screenshots/        # Directory for screenshots
 Contributing
+
 Contributions are welcome! Please follow these steps:
 
 Fork the repository.
+
 Create a new branch (git checkout -b feature-branch).
+
 Commit your changes (git commit -m "Add new feature").
+
 Push to the branch (git push origin feature-branch).
+
 Open a Pull Request.
 
-License
+
+### License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
+
 Acknowledgments
 
 Built with Flask and Scapy.
 Inspired by network security research and open-source tools.
 
-Contact
+### Contact
+
 For questions or support, please open an issue or reach out at goksinenki@gmail.com
