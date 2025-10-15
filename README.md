@@ -96,10 +96,15 @@ Note: Replace screenshots/*.png with the actual file paths of your uploaded imag
 pcap-analyzer-pro/
 
 ├── app.py              # Main Flask application
+
 ├── Dockerfile          # Docker configuration
+
 ├── requirements.txt    # Python dependencies
+
 ├── README.md           # This file
+
 └── screenshots/        # Directory for screenshots
+
 Contributing
 
 Contributions are welcome! Please follow these steps:
