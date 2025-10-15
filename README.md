@@ -34,23 +34,28 @@ Welcome to **PCAP Analyzer PRO**, a powerful and open-source network traffic ana
    python app.py
 
 
-   Docker Installation
+### Docker Installation
 
 Pull the Docker image from Docker Hub:
-bashdocker pull kullaniciadi/pcap-analyzer:latest
+
+docker pull kullaniciadi/pcap-analyzer:latest
 
 Run the container:
-bashdocker run -p 5000:5000 kullaniciadi/pcap-analyzer:latest
+
+docker run -p 5000:5000 rootuzbiz/pcap-analyzer:latest
 
 Access the web interface at http://localhost:5000.
 
-Usage
+### Usage
 
 Upload a .pcap file via the web interface.
+
 View the analysis results, including protocol summaries, TCP metrics, and security insights.
+
 Download the full TXT report for further review.
 
-Screenshots
+### Screenshots
+
 Below are some screenshots showcasing the application's features:
 
 
