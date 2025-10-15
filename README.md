@@ -32,3 +32,81 @@ Welcome to **PCAP Analyzer PRO**, a powerful and open-source network traffic ana
 
 3. Run the application:
    python app.py
+
+
+   Docker Installation
+
+Pull the Docker image from Docker Hub:
+bashdocker pull kullaniciadi/pcap-analyzer:latest
+
+Run the container:
+bashdocker run -p 5000:5000 kullaniciadi/pcap-analyzer:latest
+
+Access the web interface at http://localhost:5000.
+
+Usage
+
+Upload a .pcap file via the web interface.
+View the analysis results, including protocol summaries, TCP metrics, and security insights.
+Download the full TXT report for further review.
+
+Screenshots
+Below are some screenshots showcasing the application's features:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Protocol SummaryTCP AnalysisDNS Queries<img src="screenshots/protocol_summary.png" alt="Protocol Summary"><img src="screenshots/tcp_analysis.png" alt="TCP Analysis"><img src="screenshots/dns_queries.png" alt="DNS Queries">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Unanswered RequestsHTTP HeadersDownload Report<img src="screenshots/unanswered_requests.png" alt="Unanswered Requests"><img src="screenshots/http_headers.png" alt="HTTP Headers"><img src="screenshots/download_report.png" alt="Download Report">
+Note: Replace screenshots/*.png with the actual file paths of your uploaded images.
+Project Structure
+textpcap-analyzer-pro/
+├── app.py              # Main Flask application
+├── Dockerfile          # Docker configuration
+├── requirements.txt    # Python dependencies
+├── README.md           # This file
+└── screenshots/        # Directory for screenshots
+Contributing
+Contributions are welcome! Please follow these steps:
+
+Fork the repository.
+Create a new branch (git checkout -b feature-branch).
+Commit your changes (git commit -m "Add new feature").
+Push to the branch (git push origin feature-branch).
+Open a Pull Request.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+Acknowledgments
+
+Built with Flask and Scapy.
+Inspired by network security research and open-source tools.
+
+Contact
+For questions or support, please open an issue or reach out at goksinenki@gmail.com
